@@ -32,4 +32,4 @@ Congratulations! You're done.
 License
 -------
 
-UIButton+HitExtension is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
+UIButton-InspectableHitExtension is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
