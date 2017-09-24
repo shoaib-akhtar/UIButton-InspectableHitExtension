@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/shoaib-akhtar/UIButton-InspectableHitExtension"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Shoaib Akhtar" => "shoaib.akhtar1@live.com" }
-  s.source       = { :git => "https://github.com/shoaib-akhtar/UIButton-InspectableHitExtension",
+  s.source       = { :git => "https://github.com/shoaib-akhtar/UIButton-InspectableHitExtension.git",
                      :tag => "#{s.version}" }
   s.platform     = :ios, '7.0'
   s.requires_arc = true
