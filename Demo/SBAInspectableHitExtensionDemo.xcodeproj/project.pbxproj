@@ -13,9 +13,11 @@
 		86AC31341F77E6240059EB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AC31321F77E6240059EB17 /* Main.storyboard */; };
 		86AC31361F77E6240059EB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AC31351F77E6240059EB17 /* Assets.xcassets */; };
 		86AC31391F77E6240059EB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AC31371F77E6240059EB17 /* LaunchScreen.storyboard */; };
+		F83404B395CDCEB94307F4F1 /* libPods-SBAInspectableHitExtensionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71B96C4A0DB9DCD9F365B10 /* libPods-SBAInspectableHitExtensionDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A6DA2A90B098BCC5D8C618 /* Pods-SBAInspectableHitExtensionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBAInspectableHitExtensionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SBAInspectableHitExtensionDemo/Pods-SBAInspectableHitExtensionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		86AC31261F77E6240059EB17 /* SBAInspectableHitExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBAInspectableHitExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AC312A1F77E6240059EB17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86AC312C1F77E6240059EB17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		86AC31351F77E6240059EB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AC31381F77E6240059EB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86AC313A1F77E6240059EB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71B96C4A0DB9DCD9F365B10 /* libPods-SBAInspectableHitExtensionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SBAInspectableHitExtensionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4C561CC8FA29F40D50653F /* Pods-SBAInspectableHitExtensionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBAInspectableHitExtensionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SBAInspectableHitExtensionDemo/Pods-SBAInspectableHitExtensionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83404B395CDCEB94307F4F1 /* libPods-SBAInspectableHitExtensionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2B67D4E4F908E5DFE79413 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C561CC8FA29F40D50653F /* Pods-SBAInspectableHitExtensionDemo.debug.xcconfig */,
+				84A6DA2A90B098BCC5D8C618 /* Pods-SBAInspectableHitExtensionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		86AC311D1F77E6240059EB17 = {
 			isa = PBXGroup;
 			children = (
 				86AC31281F77E6240059EB17 /* SBAInspectableHitExtensionDemo */,
 				86AC31271F77E6240059EB17 /* Products */,
+				1C2B67D4E4F908E5DFE79413 /* Pods */,
+				88A1F566E9E43DDB4B1A9A9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +95,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		88A1F566E9E43DDB4B1A9A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A71B96C4A0DB9DCD9F365B10 /* libPods-SBAInspectableHitExtensionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86AC313D1F77E6240059EB17 /* Build configuration list for PBXNativeTarget "SBAInspectableHitExtensionDemo" */;
 			buildPhases = (
+				D96D9BB91E7D57B1501296AF /* [CP] Check Pods Manifest.lock */,
 				86AC31221F77E6240059EB17 /* Sources */,
 				86AC31231F77E6240059EB17 /* Frameworks */,
 				86AC31241F77E6240059EB17 /* Resources */,
+				54963657398E73F0FF71ABD6 /* [CP] Embed Pods Frameworks */,
+				E0228FF3DC68B5828FE9B41E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54963657398E73F0FF71ABD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SBAInspectableHitExtensionDemo/Pods-SBAInspectableHitExtensionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D96D9BB91E7D57B1501296AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SBAInspectableHitExtensionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0228FF3DC68B5828FE9B41E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SBAInspectableHitExtensionDemo/Pods-SBAInspectableHitExtensionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86AC31221F77E6240059EB17 /* Sources */ = {
@@ -273,6 +351,7 @@
 		};
 		86AC313E1F77E6240059EB17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4C561CC8FA29F40D50653F /* Pods-SBAInspectableHitExtensionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E9P8R55ACV;
@@ -285,6 +364,7 @@
 		};
 		86AC313F1F77E6240059EB17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A6DA2A90B098BCC5D8C618 /* Pods-SBAInspectableHitExtensionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E9P8R55ACV;

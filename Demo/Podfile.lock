@@ -1,0 +1,21 @@
+PODS:
+  - UIButton+SBAInspectableHitExtension (1.1.0)
+
+DEPENDENCIES:
+  - UIButton+SBAInspectableHitExtension (from `https://github.com/shoaib-akhtar/UIButton-InspectableHitExtension`)
+
+EXTERNAL SOURCES:
+  UIButton+SBAInspectableHitExtension:
+    :git: https://github.com/shoaib-akhtar/UIButton-InspectableHitExtension
+
+CHECKOUT OPTIONS:
+  UIButton+SBAInspectableHitExtension:
+    :commit: f816297f627e04c070a8d43553fc76f511bcbea0
+    :git: https://github.com/shoaib-akhtar/UIButton-InspectableHitExtension
+
+SPEC CHECKSUMS:
+  UIButton+SBAInspectableHitExtension: b557fc958560682b2ace78ba3085051345511620
+
+PODFILE CHECKSUM: a394239fe80b5082160bca9c084e5cc7fc2714b8
+
+COCOAPODS: 1.3.1
