@@ -23,7 +23,7 @@ Create `UIButton`, then set `hitEdgeInsets`.
 
 ```objc
 UIButton *button = [[UIButton alloc] init];
-button.hitEdgeInsets = UIEdgeInsetsMake(100.0f, 30.0f, 100.0f, 30.0f);
+button.hitEdgeInsets = UIEdgeInsetsMake(-10.0f, -10.0f, -10.0f, -10.0f);
 ```
 
 Create `UIButton`, using interface builder and set it's `topTouch`,`leftTouch`, `bottomTouch` and `rightTouch`.
