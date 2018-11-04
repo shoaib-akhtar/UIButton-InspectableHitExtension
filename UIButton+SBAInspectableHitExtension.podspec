@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIButton+SBAInspectableHitExtension"
-  s.version      = "1.2.1"
+  s.version      = "1.2.0"
   s.summary      = "Extension of UIButton to control it's touch area."
   s.homepage     = "https://github.com/shoaib-akhtar/UIButton-InspectableHitExtension"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
